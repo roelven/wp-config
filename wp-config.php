@@ -15,23 +15,23 @@
  */
 
 // ** DB Settings ** //
-define('DB_NAME',         'DATABASE');
-define('DB_USER',         'DB_USER');
-define('DB_PASSWORD',     'DB_PASSWORD');
-define('DB_HOST',         'localhost');
-define('DB_CHARSET',      'utf8');
-define('DB_COLLATE',      '');
+define('DB_NAME',               'DATABASE');
+define('DB_USER',               'DB_USER');
+define('DB_PASSWORD',           'DB_PASSWORD');
+define('DB_HOST',               'localhost');
+define('DB_CHARSET',            'utf8');
+define('DB_COLLATE',            '');
 
 // * Override domain settings to use whatever domain you run the site on *//
-define('WP_HOME',         'http://' .$_SERVER['HTTP_HOST']. '');
-define('WP_SITEURL',      'http://' .$_SERVER['HTTP_HOST']. '');
+define('WP_HOME',               'http://' .$_SERVER['HTTP_HOST']. '');
+define('WP_SITEURL',            'http://' .$_SERVER['HTTP_HOST']. '');
 
 // * Custom WP settings *//
-define('WP_POST_REVISIONS', false);
-define('EMPTY_TRASH_DAYS',  10);
-define('ENABLE_CACHE',      false);
-define('WPLANG', 'en_US');
-define('WP_DEBUG', false);
+define('WP_POST_REVISIONS',     false);
+define('EMPTY_TRASH_DAYS',      10);
+define('ENABLE_CACHE',          false);
+define('WPLANG',                'en_US');
+define('WP_DEBUG',              false);
 
 // * Table prefix, better set this to something custom upon install *//
 $table_prefix  = 'wp_';
